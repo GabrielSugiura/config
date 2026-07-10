@@ -1,60 +1,222 @@
-window {
-    margin: 0px;
-    border: 1px solid #565f89;
-    background-color: #1a1b26;
+/* Noctalia Theme */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.92) translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
 }
 
-#input {
-    margin: 5px;
-    border: none;
-    color: #c0caf5;
-    background-color: #24283b;
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
-#inner-box {
-    margin: 5px;
-    border: none;
-    background-color: #1a1b26;
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(187, 154, 247, 0.22),
+      inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(187, 154, 247, 0.38),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  }
 }
 
-#outer-box {
-    margin: 5px;
-    border: none;
-    background-color: #1a1b26;
+#window {
+  background: linear-gradient(135deg,
+    rgba(20, 18, 34, 0.94) 0%,
+    rgba(28, 24, 44, 0.98) 100%);
+  border: 1px solid rgba(187, 154, 247, 0.22);
+  box-shadow:
+    0 30px 60px -15px rgba(0, 0, 0, 0.9),
+    0 0 36px rgba(187, 154, 247, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  border-radius: 18px;
+  font-family: "JetBrains Mono", "Fira Code", "Inter", sans-serif;
+  font-size: 14px;
+  animation: fadeIn 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  padding: 2px;
 }
 
-#scroll {
-    margin: 0px;
-    border: none;
+#window #outer-box {
+  /* Search Input */
 }
 
-/* Ícone do aplicativo */
-#img {
-    margin: 6px 8px 6px 6px;
-    min-width: 32px;
-    min-height: 32px;
+#window #outer-box #input {
+  background: linear-gradient(135deg,
+    rgba(38, 33, 58, 0.95) 0%,
+    rgba(30, 26, 48, 0.98) 100%);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(187, 154, 247, 0.25);
+  padding: 16px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 14px 14px 0 0;
+  margin: 8px;
+  margin-bottom: 4px;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  color: #f4efff;
 }
 
-/* Texto do nome do aplicativo */
-#text {
-    margin: 6px 8px 6px 4px;
-    border: none;
-    color: #c0caf5;
-    font-size: 1.05em;
+#window #outer-box #input:focus,
+#window #outer-box #input:focus-visible,
+#window #outer-box #input:active {
+  background: linear-gradient(135deg,
+    rgba(52, 44, 76, 0.98) 0%,
+    rgba(42, 35, 66, 1) 100%);
+  backdrop-filter: blur(20px) saturate(1.2);
+  border: 1px solid rgba(187, 154, 247, 0.55);
+  outline: none;
+  box-shadow:
+    0 0 28px rgba(187, 154, 247, 0.30),
+    inset 0 2px 8px rgba(187, 154, 247, 0.12);
+  transform: scale(1.02);
 }
 
-/* Item da lista (entrada) */
-#entry {
-    padding: 2px;
+#window #outer-box {
+  /* Scrolled entries list */
 }
 
-/* Item selecionado */
-#entry:selected {
-    background-color: #24283b;
+#window #outer-box #scroll #inner-box {
+  /* Entry items */
 }
 
-/* Opcional: ícone também muda um pouco quando selecionado */
-#entry:selected #img {
-    /* Pode adicionar filtro se quiser realçar mais o ícone */
-    /* filter: brightness(1.1); */
+#window #outer-box #scroll #inner-box #entry {
+  color: #ddd6f7;
+  background: linear-gradient(135deg,
+    rgba(43, 37, 63, 0.58) 0%,
+    rgba(34, 30, 54, 0.40) 100%);
+  backdrop-filter: blur(8px);
+  padding: 12px 14px;
+  margin: 6px 4px;
+  border: 1px solid rgba(187, 154, 247, 0.12);
+  border-radius: 10px;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  display: flex;
+  align-items: center;
+  animation: slideIn 0.4s ease-out forwards;
+  opacity: 0;
+}
+
+#window #outer-box #scroll #inner-box #entry:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+#window #outer-box #scroll #inner-box #entry:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+#window #outer-box #scroll #inner-box #entry:nth-child(3) {
+  animation-delay: 0.15s;
+}
+
+#window #outer-box #scroll #inner-box #entry:nth-child(4) {
+  animation-delay: 0.2s;
+}
+
+#window #outer-box #scroll #inner-box #entry:nth-child(5) {
+  animation-delay: 0.25s;
+}
+
+#window #outer-box #scroll #inner-box #entry:nth-child(n+6) {
+  animation-delay: 0.3s;
+}
+
+#window #outer-box #scroll #inner-box #entry {
+  /* Icons for applications */
+}
+
+#window #outer-box #scroll #inner-box #entry #img {
+  width: 36px;
+  height: 36px;
+  margin-right: 14px;
+  border-radius: 8px;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  filter: brightness(1) drop-shadow(0 0 4px rgba(187, 154, 247, 0));
+}
+
+#window #outer-box #scroll #inner-box #entry {
+  /* Text styling */
+}
+
+#window #outer-box #scroll #inner-box #entry #text {
+  color: #e8e1ff;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+#window #outer-box #scroll #inner-box #entry {
+  /* Hover state */
+}
+
+#window #outer-box #scroll #inner-box #entry:hover {
+  background: linear-gradient(135deg,
+    rgba(72, 60, 106, 0.72) 0%,
+    rgba(58, 49, 88, 0.62) 100%);
+  border: 1px solid rgba(187, 154, 247, 0.32);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(187, 154, 247, 0.12);
+}
+
+#window #outer-box #scroll #inner-box #entry:hover #img {
+  transform: scale(1.1) translateY(-2px);
+  filter: brightness(1.12)
+    drop-shadow(0 0 8px rgba(187, 154, 247, 0.35));
+}
+
+#window #outer-box #scroll #inner-box #entry {
+  /* Selected state */
+}
+
+#window #outer-box #scroll #inner-box #entry:selected {
+  color: #ffffff;
+  background: linear-gradient(135deg,
+    rgba(87, 162, 220, 0.72) 0%,
+    rgba(58, 124, 176, 0.65) 100%);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(168, 208, 238, 0.70);
+  box-shadow:
+    0 0 24px rgba(87, 162, 220, 0.35),
+    0 8px 25px rgba(58, 124, 176, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  transform: translateY(-3px);
+  outline: none;
+}
+
+#window #outer-box #scroll #inner-box #entry:selected #img {
+  transform: scale(1.15) rotate(5deg);
+  filter: brightness(1.2)
+    drop-shadow(0 0 12px rgba(87, 162, 220, 0.5));
+  box-shadow: 0 8px 20px rgba(87, 162, 220, 0.28);
+}
+
+#window #outer-box #scroll #inner-box #entry:selected #text {
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(87, 162, 220, 0.28);
+}
+
+#window #outer-box #scroll #inner-box {
+  /* Expander boxes for multiple actions */
+}
+
+#window #outer-box #scroll #inner-box #expander-box {
+  background: linear-gradient(135deg,
+    rgba(38, 33, 58, 0.95) 0%,
+    rgba(30, 26, 48, 0.98) 100%);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(187, 154, 247, 0.18);
+  border-radius: 8px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
 }
