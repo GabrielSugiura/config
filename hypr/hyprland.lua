@@ -94,7 +94,8 @@ hl.config({
             -- amarelo e azul:    colors = {"rgba(ecc450ff)", "rgba(4B83CEff)" }, angle =  140
             -- gelo/nord          colors = {"rgba(88C0D0ff)", "rgba(66CCCff)" }, angle =  140
             -- rosé ice           colors = {"rgba(FDADC7ff)", "rgba(EA4C88ff)" }, angle =  140
-            active_border   = { colors = {"rgba(FDADC7ff)", "rgba(EA4C88ff)" }, angle =  140 },
+            -- plains             colors = {"rgba(FDADC7ff)", "rgba(EA4C88ff)" }, angle =  140
+            active_border   = { colors = {"rgba(8C873Cff)", "rgba(777D51ff)" }, angle =  140 },
             inactive_border = "rgba(aaaaaaff)",
         },
 
