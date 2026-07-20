@@ -9,3 +9,4 @@ echo "Configuration Installed"
 echo "Deleting this folder"
 
 cd && rm -rf config
+exit
