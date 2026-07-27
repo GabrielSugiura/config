@@ -18,6 +18,10 @@ If the user wishes to copy only the Hyrland and "rice" file, run the install scr
 
 ![Rosé Nord](screenshots/rosé-nord.png)
 
+### Plains:
+
+![Plains](screenshots/plains.png)
+
 ### Salvation:
 
 ![Salvation](screenshots/salvation.png)

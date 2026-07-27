@@ -94,8 +94,8 @@ hl.config({
             -- salvation:         colors = {"rgba(ECC450ff)", "rgba(4B83CEff)" }, angle =  140
             -- nord               colors = {"rgba(88C0D0ff)", "rgba(66CCCff)" }, angle =  140
             -- rosé ice           colors = {"rgba(FDADC7ff)", "rgba(EA4C88ff)" }, angle =  140
-            -- plains             colors = {"rgba(FDADC7ff)", "rgba(EA4C88ff)" }, angle =  140
-            active_border   = { colors = {"rgba(ECC450ff)", "rgba(4B83CEff)" }, angle =  140 },
+            -- plains             colors = { "rgba(D2C8BFff)", "rgba(8C873Cff)" }, angle = 210
+            active_border   = { colors = { "rgba(6D8EB1ff)", "rgba(8C873Cff)" }, angle = 210 },
             inactive_border = "rgba(aaaaaaff)",
         },
 
