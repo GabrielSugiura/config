@@ -1,0 +1,8 @@
+# required by steam-launcher (argument)
+=games-util/steam-launcher-1.0.0.85-r3 ~amd64
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[udev,joystick]
+# required by steam-launcher (argument)
+=games-util/game-device-udev-rules-20260605 ~amd64
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay
+# required by steam-launcher (argument)
+=sys-libs/libudev-compat-186-r1 ~amd64

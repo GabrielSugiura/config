@@ -1,0 +1,17 @@
+# required by discord (argument)
+>=net-im/discord-0.0.147 all-rights-reserved
+# required by spotify (argument)
+>=media-sound/spotify-1.2.92 Spotify
+# required by x11-drivers/nvidia-drivers (argument)
+=x11-drivers/nvidia-drivers-595.84 NVIDIA-2025
+# required by steam-launcher (argument)
+>=games-util/steam-launcher-1.0.0.85-r3 ValveSteamLicense
+# required by snes9x (argument)
+>=games-emulation/snes9x-1.63 Snes9x
+# required by unrar (argument)
+>=app-arch/unrar-7.2.7 unRAR
+# required by media-sound/audiotools-3.1.1-r3::gentoo[aac]
+# required by audiotools (argument)
+>=media-libs/faac-1.31.1-r1 MPEG-4
+# required by obsidian (argument)
+>=app-office/obsidian-1.12.7 Obsidian-EULA

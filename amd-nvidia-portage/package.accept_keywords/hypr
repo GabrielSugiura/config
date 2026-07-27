@@ -1,0 +1,27 @@
+# Hyprland
+gui-wm/hyprland ~amd64
+dev-libs/hyprlang ~amd64
+dev-libs/hyprgraphics ~amd64
+gui-libs/aquamarine ~amd64
+gui-libs/hyprcursor ~amd64
+gui-libs/hyprutils ~amd64
+gui-libs/hyprwire ~amd64
+gui-libs/hyprland-guiutils ~amd64
+dev-cpp/glaze ~amd64
+dev-libs/hyprland-protocols ~amd64
+dev-util/hyprwayland-scanner ~amd64
+gui-libs/hyprtoolkit ~amd64
+
+# Noctalia
+gui-apps/noctalia ~amd64
+gui-apps/noctalia-qs ~amd64
+app-misc/brightnessctl ~amd64
+dev-libs/libdwarf ~amd64
+dev-cpp/cpptrace ~amd64
+
+gui-libs/xdg-desktop-portal-hyprland ~amd64
+dev-cpp/sdbus-c++ ~amd64
+
+gui-apps/hyprshot ~amd64
+
+dev-libs/wayland-protocols ~amd64

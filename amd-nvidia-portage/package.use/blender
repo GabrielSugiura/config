@@ -1,0 +1,22 @@
+# required by media-gfx/blender-4.5.5::gentoo
+# required by blender (argument)
+>=media-libs/freetype-2.14.3 brotli
+# required by media-gfx/blender-4.5.5::gentoo[bullet]
+# required by blender (argument)
+>=sci-physics/bullet-3.21 double-precision
+# required by media-gfx/blender-4.5.5::gentoo[ffmpeg]
+# required by blender (argument)
+>=media-video/ffmpeg-8.1.2 xvid theora lame opus vpx
+# required by media-gfx/blender-4.5.5::gentoo[fftw]
+# required by blender (argument)
+>=sci-libs/fftw-3.3.10-r1 threads
+# required by media-gfx/blender-4.5.5::gentoo[opensubdiv]
+# required by blender (argument)
+>=media-libs/opensubdiv-3.6.1 tbb
+# required by media-libs/freetype-2.14.3::gentoo[brotli]
+# required by media-libs/openimageio-3.0.8.1-r2::gentoo[truetype]
+# required by media-gfx/blender-4.5.5::gentoo
+# required by blender (argument)
+>=app-arch/brotli-1.1.0 abi_x86_32
+
+media-gfx/blender -X

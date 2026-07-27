@@ -1,0 +1,671 @@
+# required by sys-kernel/gentoo-kernel-6.18.35::gentoo[initramfs]
+# required by virtual/dist-kernel-6.18.35-r1::gentoo
+# required by sys-kernel/linux-firmware-20260519::gentoo
+# required by sys-kernel/linux-firmware (argument)
+>=sys-kernel/installkernel-68 dracut
+# required by gui-apps/noctalia-qs-0.0.12::guru[crash-handler]
+# required by gui-apps/noctalia-4.7.7::guru
+# required by noctalia (argument)
+>=dev-cpp/cpptrace-1.0.4-r1 unwind
+# required by dev-libs/libayatana-appindicator-0.5.94::gentoo
+# required by media-sound/spotify-1.2.92::gentoo
+# required by spotify (argument)
+>=dev-libs/libdbusmenu-16.04.0-r4 gtk3
+# required by x11-libs/cairo-1.18.4-r1::gentoo
+# required by media-libs/harfbuzz-12.3.2::gentoo[cairo]
+# required by media-libs/freetype-2.14.3::gentoo[harfbuzz]
+# required by app-misc/nwg-look-1.0.6::guru
+# required by @selected
+# required by @world (argument)
+>=media-libs/fontconfig-2.17.1 abi_x86_32
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay
+# required by steam-launcher (argument)
+>=sys-libs/libudev-compat-186-r1 abi_x86_32
+# required by media-libs/mesa-26.0.7::gentoo
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=x11-libs/libdrm-2.4.131 abi_x86_32
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[pulseaudio]
+# required by steam-launcher (argument)
+>=media-libs/libpulse-17.0 abi_x86_32
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[vulkan]
+# required by steam-launcher (argument)
+>=media-libs/vulkan-loader-1.4.341.0 abi_x86_32
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=x11-drivers/nvidia-drivers-595.84 abi_x86_32
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia,vulkan]
+# required by steam-launcher (argument)
+>=media-libs/vulkan-layers-1.4.341.0 abi_x86_32
+# required by dev-util/glslang-1.4.341.0::gentoo
+# required by media-libs/mesa-26.0.7::gentoo[vulkan]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=dev-util/spirv-tools-1.4.341.0 abi_x86_32
+# required by media-libs/vulkan-layers-1.4.341.0::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia,vulkan]
+# required by steam-launcher (argument)
+>=dev-util/glslang-1.4.341.0 abi_x86_32
+# required by media-libs/vulkan-layers-1.4.341.0::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia,vulkan]
+# required by steam-launcher (argument)
+>=dev-util/vulkan-utility-libraries-1.4.341.0 abi_x86_32
+# required by media-libs/mesa-26.0.7::gentoo[wayland]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=dev-libs/wayland-1.24.0 abi_x86_32
+# required by media-libs/mesa-26.0.7::gentoo[X]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=x11-libs/libX11-1.8.13 abi_x86_32
+# required by media-libs/vulkan-layers-1.4.341.0::gentoo[X]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia,vulkan]
+# required by steam-launcher (argument)
+>=x11-libs/libXrandr-1.5.5 abi_x86_32
+# required by x11-libs/cairo-1.18.4-r1::gentoo[X]
+# required by media-libs/harfbuzz-12.3.2::gentoo[cairo]
+# required by media-libs/freetype-2.14.3::gentoo[harfbuzz]
+# required by media-libs/fontconfig-2.17.1::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay
+# required by steam-launcher (argument)
+>=x11-libs/libXext-1.3.7 abi_x86_32
+# required by x11-libs/libXrandr-1.5.5::gentoo
+# required by media-libs/vulkan-loader-1.4.341.0::gentoo[X]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[vulkan]
+# required by steam-launcher (argument)
+>=x11-libs/libXrender-0.9.12 abi_x86_32
+# required by media-libs/mesa-26.0.7::gentoo[X]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=x11-libs/libxcb-1.17.0 abi_x86_32
+# required by x11-libs/libxcb-1.17.0::gentoo
+# required by x11-libs/cairo-1.18.4-r1::gentoo[X]
+# required by media-libs/harfbuzz-12.3.2::gentoo[cairo]
+# required by media-libs/freetype-2.14.3::gentoo[harfbuzz]
+# required by media-libs/fontconfig-2.17.1::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay
+# required by steam-launcher (argument)
+>=x11-libs/libXau-1.0.12 abi_x86_32
+# required by x11-libs/libxcb-1.17.0::gentoo
+# required by x11-libs/cairo-1.18.4-r1::gentoo[X]
+# required by media-libs/harfbuzz-12.3.2::gentoo[cairo]
+# required by media-libs/freetype-2.14.3::gentoo[harfbuzz]
+# required by media-libs/fontconfig-2.17.1::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay
+# required by steam-launcher (argument)
+>=x11-libs/libXdmcp-1.1.5 abi_x86_32
+# required by llvm-core/llvm-22.1.8::gentoo[libffi]
+# required by media-libs/mesa-26.0.7::gentoo[llvm,llvm_slot_22]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=dev-libs/libffi-3.5.2 abi_x86_32
+# required by media-libs/mesa-26.0.7::gentoo
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=media-libs/libglvnd-1.7.0 abi_x86_32
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=gui-libs/egl-gbm-1.1.3 abi_x86_32
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=gui-libs/egl-wayland-1.1.21 abi_x86_32
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=gui-libs/egl-wayland2-1.0.1 abi_x86_32
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[X,wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=gui-libs/egl-x11-1.0.5 abi_x86_32
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=media-libs/mesa-26.0.7 abi_x86_32
+# required by media-libs/fontconfig-2.17.1::gentoo
+# required by x11-libs/cairo-1.18.4-r1::gentoo
+# required by media-libs/harfbuzz-12.3.2::gentoo[cairo]
+# required by media-libs/freetype-2.14.3::gentoo[harfbuzz]
+# required by app-misc/nwg-look-1.0.6::guru
+# required by @selected
+# required by @world (argument)
+>=dev-libs/expat-2.8.1 abi_x86_32
+# required by media-libs/mesa-26.0.7::gentoo[llvm,llvm_slot_22]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=llvm-core/llvm-22.1.8 abi_x86_32
+# required by media-libs/mesa-26.0.7::gentoo[vulkan]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=media-libs/libdisplay-info-0.3.0 abi_x86_32
+# required by media-libs/mesa-26.0.7::gentoo[X]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=x11-libs/libxshmfence-1.3.3 abi_x86_32
+# required by media-libs/mesa-26.0.7::gentoo[X]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=x11-libs/libXxf86vm-1.1.7 abi_x86_32
+# required by media-libs/mesa-26.0.7::gentoo[X]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=x11-libs/libXfixes-6.0.2 abi_x86_32
+# required by media-libs/mesa-26.0.7::gentoo[X]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=x11-libs/xcb-util-keysyms-0.4.1 abi_x86_32
+# required by llvm-core/llvm-22.1.8::gentoo[zstd]
+# required by media-libs/mesa-26.0.7::gentoo[llvm,llvm_slot_22]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=app-arch/zstd-1.5.7-r1 abi_x86_32
+# required by llvm-core/llvm-22.1.8::gentoo[xml]
+# required by media-libs/mesa-26.0.7::gentoo[llvm,llvm_slot_22]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=dev-libs/libxml2-2.15.3 abi_x86_32
+# required by dev-libs/libxml2-2.15.3::gentoo[icu]
+# required by llvm-core/llvm-22.1.8::gentoo[xml]
+# required by media-libs/mesa-26.0.7::gentoo[llvm,llvm_slot_22]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=dev-libs/icu-78.3 abi_x86_32
+# required by media-libs/libpulse-17.0::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[pulseaudio]
+# required by steam-launcher (argument)
+>=media-libs/libsndfile-1.2.2-r2 abi_x86_32
+# required by media-libs/libpulse-17.0::gentoo[asyncns]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[pulseaudio]
+# required by steam-launcher (argument)
+>=net-libs/libasyncns-0.8-r4 abi_x86_32
+# required by media-libs/libpulse-17.0::gentoo[dbus]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[pulseaudio]
+# required by steam-launcher (argument)
+>=sys-apps/dbus-1.16.2 abi_x86_32
+# required by x11-libs/cairo-1.18.4-r1::gentoo[glib]
+# required by media-libs/harfbuzz-12.3.2::gentoo[cairo]
+# required by media-libs/freetype-2.14.3::gentoo[harfbuzz]
+# required by media-libs/fontconfig-2.17.1::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay
+# required by steam-launcher (argument)
+>=dev-libs/glib-2.84.4-r5 abi_x86_32
+# required by dev-libs/glib-2.84.4-r5::gentoo
+# required by x11-libs/cairo-1.18.4-r1::gentoo[glib]
+# required by media-libs/harfbuzz-12.3.2::gentoo[cairo]
+# required by media-libs/freetype-2.14.3::gentoo[harfbuzz]
+# required by media-libs/fontconfig-2.17.1::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay
+# required by steam-launcher (argument)
+>=dev-libs/libpcre2-10.47 abi_x86_32
+# required by dev-libs/glib-2.84.4-r5::gentoo
+# required by x11-libs/cairo-1.18.4-r1::gentoo[glib]
+# required by media-libs/harfbuzz-12.3.2::gentoo[cairo]
+# required by media-libs/freetype-2.14.3::gentoo[harfbuzz]
+# required by media-libs/fontconfig-2.17.1::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay
+# required by steam-launcher (argument)
+>=sys-apps/util-linux-2.41.4-r1 abi_x86_32
+# required by media-libs/libsndfile-1.2.2-r2::gentoo[-minimal]
+# required by media-libs/libpulse-17.0::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[pulseaudio]
+# required by steam-launcher (argument)
+>=media-libs/flac-1.5.0 abi_x86_32
+# required by media-libs/libvorbis-1.3.7-r2::gentoo
+# required by media-libs/libsndfile-1.2.2-r2::gentoo[-minimal]
+# required by media-libs/libpulse-17.0::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[pulseaudio]
+# required by steam-launcher (argument)
+>=media-libs/libogg-1.3.6 abi_x86_32
+# required by media-libs/libsndfile-1.2.2-r2::gentoo[-minimal]
+# required by media-libs/libpulse-17.0::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[pulseaudio]
+# required by steam-launcher (argument)
+>=media-libs/libvorbis-1.3.7-r2 abi_x86_32
+# required by media-libs/libsndfile-1.2.2-r2::gentoo[-minimal]
+# required by media-libs/libpulse-17.0::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[pulseaudio]
+# required by steam-launcher (argument)
+>=media-libs/opus-1.5.2 abi_x86_32
+# required by media-libs/libsndfile-1.2.2-r2::gentoo[-minimal]
+# required by media-libs/libpulse-17.0::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[pulseaudio]
+# required by steam-launcher (argument)
+>=media-sound/lame-3.100-r3 abi_x86_32
+# required by media-libs/libsndfile-1.2.2-r2::gentoo[-minimal]
+# required by media-libs/libpulse-17.0::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[pulseaudio]
+# required by steam-launcher (argument)
+>=media-sound/mpg123-base-1.33.3 abi_x86_32
+# required by media-libs/harfbuzz-12.3.2::gentoo[truetype]
+# required by app-misc/nwg-look-1.0.6::guru
+# required by @selected
+# required by @world (argument)
+>=media-libs/freetype-2.14.3 abi_x86_32
+# required by media-libs/freetype-2.14.3::gentoo[bzip2]
+# required by x11-libs/cairo-1.18.4-r1::gentoo
+# required by media-libs/harfbuzz-12.3.2::gentoo[cairo]
+# required by app-misc/nwg-look-1.0.6::guru
+# required by @selected
+# required by @world (argument)
+>=app-arch/bzip2-1.0.8-r5 abi_x86_32
+# required by x11-libs/cairo-1.18.4-r1::gentoo
+# required by media-libs/harfbuzz-12.3.2::gentoo[cairo]
+# required by media-libs/freetype-2.14.3::gentoo[harfbuzz]
+# required by media-libs/fontconfig-2.17.1::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay
+# required by steam-launcher (argument)
+>=media-libs/libpng-1.6.58 abi_x86_32
+# required by media-libs/freetype-2.14.3::gentoo[harfbuzz]
+# required by x11-libs/cairo-1.18.4-r1::gentoo
+# required by xfce-base/xfce4-panel-4.20.7::gentoo
+# required by xfce-base/thunar-4.20.8::gentoo[trash-panel-plugin]
+# required by @selected
+# required by @world (argument)
+>=media-libs/harfbuzz-12.3.2 abi_x86_32
+# required by media-libs/harfbuzz-12.3.2::gentoo[cairo]
+# required by media-libs/freetype-2.14.3::gentoo[harfbuzz]
+# required by media-libs/fontconfig-2.17.1::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay
+# required by steam-launcher (argument)
+>=x11-libs/cairo-1.18.4-r1 abi_x86_32
+# required by media-libs/harfbuzz-12.3.2::gentoo[graphite]
+# required by media-libs/freetype-2.14.3::gentoo[harfbuzz]
+# required by x11-libs/cairo-1.18.4-r1::gentoo
+# required by xfce-base/xfce4-panel-4.20.7::gentoo
+# required by xfce-base/thunar-4.20.8::gentoo[trash-panel-plugin]
+# required by @selected
+# required by @world (argument)
+>=media-gfx/graphite2-1.3.14_p20210810-r5 abi_x86_32
+# required by x11-libs/cairo-1.18.4-r1::gentoo
+# required by media-libs/harfbuzz-12.3.2::gentoo[cairo]
+# required by media-libs/freetype-2.14.3::gentoo[harfbuzz]
+# required by media-libs/fontconfig-2.17.1::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay
+# required by steam-launcher (argument)
+>=x11-libs/pixman-0.46.4 abi_x86_32
+# required by media-libs/mesa-26.0.7::gentoo
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=virtual/zlib-1.3.1-r1 abi_x86_32
+# required by virtual/zlib-1.3.1-r1::gentoo
+# required by dev-libs/elfutils-0.195::gentoo
+# required by virtual/libelf-3-r1::gentoo
+# required by media-libs/mesa-26.0.7::gentoo[video_cards_radeonsi,-video_cards_radeon,-video_cards_r600,llvm]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=sys-libs/zlib-1.3.2-r1 abi_x86_32
+# required by dev-libs/glib-2.84.4-r5::gentoo
+# required by x11-libs/cairo-1.18.4-r1::gentoo[glib]
+# required by media-libs/harfbuzz-12.3.2::gentoo[cairo]
+# required by media-libs/freetype-2.14.3::gentoo[harfbuzz]
+# required by media-libs/fontconfig-2.17.1::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay
+# required by steam-launcher (argument)
+>=virtual/libintl-0-r2 abi_x86_32
+# required by sys-libs/libudev-compat-186-r1::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay
+# required by steam-launcher (argument)
+>=virtual/libudev-257 abi_x86_32
+# required by virtual/libudev-257::gentoo[-systemd]
+# required by media-libs/mesa-26.0.7::gentoo[vulkan]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=sys-apps/systemd-utils-260.1-r1 abi_x86_32
+# required by dev-libs/glib-2.84.4-r5::gentoo
+# required by x11-libs/cairo-1.18.4-r1::gentoo[glib]
+# required by media-libs/harfbuzz-12.3.2::gentoo[cairo]
+# required by media-libs/freetype-2.14.3::gentoo[harfbuzz]
+# required by media-libs/fontconfig-2.17.1::gentoo
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay
+# required by steam-launcher (argument)
+>=virtual/libiconv-0-r2 abi_x86_32
+# required by media-libs/mesa-26.0.7::gentoo[video_cards_radeonsi,-video_cards_radeon,-video_cards_r600,llvm]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=virtual/libelf-3-r1 abi_x86_32
+# required by virtual/libelf-3-r1::gentoo
+# required by media-libs/mesa-26.0.7::gentoo[video_cards_radeonsi,-video_cards_radeon,-video_cards_r600,llvm]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=dev-libs/elfutils-0.195 abi_x86_32
+# required by dev-libs/elfutils-0.195::gentoo[lzma]
+# required by virtual/libelf-3-r1::gentoo
+# required by media-libs/mesa-26.0.7::gentoo[video_cards_radeonsi,-video_cards_radeon,-video_cards_r600,llvm]
+# required by gui-libs/egl-gbm-1.1.3::gentoo
+# required by x11-drivers/nvidia-drivers-595.84::gentoo[wayland]
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay[video_cards_nvidia]
+# required by steam-launcher (argument)
+>=app-arch/xz-utils-5.8.3 abi_x86_32
+# required by games-util/steam-launcher-1.0.0.85-r3::steam-overlay
+# required by steam-launcher (argument)
+>=virtual/opengl-8 abi_x86_32
+# required by games-util/lutris-0.5.22-r1::gentoo[test]
+# required by lutris (argument)
+>=x11-base/xorg-server-21.1.23 xvfb
+# required by x11-drivers/xf86-video-ati-22.0.0::gentoo
+# required by x11-base/xorg-drivers-21.1-r2::gentoo[-video_cards_radeon,video_cards_radeonsi]
+# required by x11-base/xorg-server-21.1.23::gentoo[xorg]
+# required by x11-drivers/xf86-input-libinput-1.5.0::gentoo
+>=x11-libs/libdrm-2.4.131 video_cards_radeon
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/pyaml-26.2.1 python_targets_python3_13
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/pyside-6.11.1-r1 python_targets_python3_13 uitools
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/pyxdg-0.28-r2 python_targets_python3_13
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/requests-2.34.2 python_targets_python3_13
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/steam-2.0.0-r1 python_targets_python3_13
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/vdf-4.0 python_targets_python3_13
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/zstandard-0.25.0 python_targets_python3_13
+# required by dev-python/vdf-4.0::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/gpep517-19 python_targets_python3_13
+# required by dev-python/setuptools-scm-10.0.5::gentoo[-test]
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.7.0::gentoo
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/setuptools-82.0.1 python_targets_python3_13
+# required by dev-python/setuptools-82.0.1::gentoo
+# required by dev-python/cython-3.2.4::gentoo
+# required by dev-python/pyyaml-6.0.3::gentoo
+# required by dev-python/pyaml-26.2.1::gentoo
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/jaraco-functools-4.5.0 python_targets_python3_13
+# required by dev-python/setuptools-82.0.1::gentoo
+# required by dev-python/cython-3.2.4::gentoo
+# required by dev-python/pyyaml-6.0.3::gentoo
+# required by dev-python/pyaml-26.2.1::gentoo
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/jaraco-text-4.2.0 python_targets_python3_13
+# required by dev-python/setuptools-82.0.1::gentoo
+# required by dev-python/cython-3.2.4::gentoo
+# required by dev-python/pyyaml-6.0.3::gentoo
+# required by dev-python/pyaml-26.2.1::gentoo
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/more-itertools-11.1.0 python_targets_python3_13
+# required by dev-python/wheel-0.47.0::gentoo
+# required by dev-python/pyside-6.11.1-r1::gentoo
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/packaging-26.2 python_targets_python3_13
+# required by dev-python/setuptools-82.0.1::gentoo
+# required by dev-python/cython-3.2.4::gentoo
+# required by dev-python/pyyaml-6.0.3::gentoo
+# required by dev-python/pyaml-26.2.1::gentoo
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/platformdirs-4.10.0 python_targets_python3_13
+# required by dev-python/setuptools-82.0.1::gentoo
+# required by dev-python/cython-3.2.4::gentoo
+# required by dev-python/pyyaml-6.0.3::gentoo
+# required by dev-python/pyaml-26.2.1::gentoo
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/wheel-0.47.0 python_targets_python3_13
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.7.0::gentoo
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/setuptools-scm-10.0.5 python_targets_python3_13
+# required by dev-python/setuptools-82.0.1::gentoo
+# required by dev-python/cython-3.2.4::gentoo
+# required by dev-python/pyyaml-6.0.3::gentoo
+# required by dev-python/pyaml-26.2.1::gentoo
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/trove-classifiers-2026.6.1.19 python_targets_python3_13
+# required by dev-python/typing-extensions-4.15.0::gentoo
+# required by dev-python/mypy-2.1.0::gentoo
+# required by dev-python/charset-normalizer-3.4.7::gentoo[python_targets_python3_14,native-extensions,-python_targets_python3_12,python_targets_python3_13]
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/flit-core-3.12.0 python_targets_python3_13
+# required by dev-python/setuptools-scm-10.0.5::gentoo[-test]
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.7.0::gentoo
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/vcs-versioning-1.1.1 python_targets_python3_13
+# required by dev-python/jaraco-text-4.2.0::gentoo
+# required by dev-python/setuptools-82.0.1::gentoo
+# required by dev-python/cython-3.2.4::gentoo
+# required by dev-python/pyyaml-6.0.3::gentoo
+# required by dev-python/pyaml-26.2.1::gentoo
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/jaraco-context-6.1.2 python_targets_python3_13
+# required by dev-python/gpep517-19::gentoo
+# required by dev-python/cython-3.2.4::gentoo
+# required by dev-python/pyyaml-6.0.3::gentoo
+# required by dev-python/pyaml-26.2.1::gentoo
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/installer-1.0.1 python_targets_python3_13
+# required by dev-python/zstandard-0.25.0::gentoo[python_targets_python3_13,-python_targets_python3_12,python_targets_python3_14]
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/cffi-2.0.0 python_targets_python3_13
+# required by dev-python/cffi-2.0.0::gentoo[-test]
+# required by dev-python/pycryptodome-3.23.0::gentoo[python_targets_python3_13,python_targets_python3_14,-python_targets_python3_12]
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/pycparser-3.0 python_targets_python3_13
+# required by dev-python/pycparser-3.0::gentoo[-test]
+# required by dev-python/cffi-2.0.0::gentoo[-test]
+# required by dev-python/pycryptodome-3.23.0::gentoo[python_targets_python3_13,python_targets_python3_14,-python_targets_python3_12]
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/ply-3.11-r2 python_targets_python3_13
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/cachetools-7.1.4 python_targets_python3_13
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/pycryptodome-3.23.0 python_targets_python3_13
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/six-1.17.0 python_targets_python3_13
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/certifi-3024.7.22 python_targets_python3_13
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/protobuf-7.34.2 python_targets_python3_13
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/wsproto-1.3.2 python_targets_python3_13
+# required by dev-python/wsproto-1.3.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/h11-0.16.0 python_targets_python3_13
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/charset-normalizer-3.4.7 python_targets_python3_13
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/idna-3.18 python_targets_python3_13
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/urllib3-2.7.0 python_targets_python3_13
+# required by dev-python/urllib3-2.7.0::gentoo
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/pysocks-1.7.1-r2 python_targets_python3_13
+# required by dev-python/urllib3-2.7.0::gentoo
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/hatch-vcs-0.5.0 python_targets_python3_13
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.7.0::gentoo
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/hatchling-1.30.1 python_targets_python3_13
+# required by dev-python/hatchling-1.30.1::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.7.0::gentoo
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/editables-0.6 python_targets_python3_13
+# required by dev-python/mypy-2.1.0::gentoo
+# required by dev-python/charset-normalizer-3.4.7::gentoo[python_targets_python3_14,native-extensions,-python_targets_python3_12,python_targets_python3_13]
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/pathspec-1.1.1 python_targets_python3_13
+# required by dev-python/hatchling-1.30.1::gentoo
+# required by dev-python/hatch-vcs-0.5.0::gentoo
+# required by dev-python/urllib3-2.7.0::gentoo
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/pluggy-1.6.0 python_targets_python3_13
+# required by dev-python/charset-normalizer-3.4.7::gentoo[python_targets_python3_14,native-extensions,-python_targets_python3_12,python_targets_python3_13]
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/mypy-2.1.0 python_targets_python3_13
+# required by dev-python/mypy-2.1.0::gentoo
+# required by dev-python/charset-normalizer-3.4.7::gentoo[python_targets_python3_14,native-extensions,-python_targets_python3_12,python_targets_python3_13]
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/ast-serialize-0.3.0 python_targets_python3_13
+# required by dev-python/mypy-2.1.0::gentoo
+# required by dev-python/charset-normalizer-3.4.7::gentoo[python_targets_python3_14,native-extensions,-python_targets_python3_12,python_targets_python3_13]
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/librt-0.11.0 python_targets_python3_13
+# required by dev-python/mypy-2.1.0::gentoo
+# required by dev-python/charset-normalizer-3.4.7::gentoo[python_targets_python3_14,native-extensions,-python_targets_python3_12,python_targets_python3_13]
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/mypy-extensions-1.1.0 python_targets_python3_13
+# required by dev-python/mypy-2.1.0::gentoo
+# required by dev-python/charset-normalizer-3.4.7::gentoo[python_targets_python3_14,native-extensions,-python_targets_python3_12,python_targets_python3_13]
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/typing-extensions-4.15.0 python_targets_python3_13
+# required by dev-python/ast-serialize-0.3.0::gentoo
+# required by dev-python/mypy-2.1.0::gentoo
+# required by dev-python/charset-normalizer-3.4.7::gentoo[python_targets_python3_14,native-extensions,-python_targets_python3_12,python_targets_python3_13]
+# required by dev-python/requests-2.34.2::gentoo
+# required by dev-python/steam-2.0.0-r1::guru
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-util/maturin-1.13.3 python_targets_python3_13
+# required by dev-python/pyside-6.11.1-r1::gentoo
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/distro-1.9.0 python_targets_python3_13
+# required by dev-python/pyaml-26.2.1::gentoo
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/pyyaml-6.0.3 python_targets_python3_13
+# required by dev-python/pyyaml-6.0.3::gentoo
+# required by dev-python/pyaml-26.2.1::gentoo
+# required by games-util/ProtonUp-Qt-2.13.0::guru
+# required by games-util/ProtonUp-Qt (argument)
+>=dev-python/cython-3.2.4 python_targets_python3_13
