@@ -12,4 +12,4 @@ If the user wishes to copy only the Hyrland and "rice" file, run the install scr
 
 ### Nord:
 
-![Nord](screenshots/nord)
+![Nord](screenshots/nord.png)
