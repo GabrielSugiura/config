@@ -92,10 +92,10 @@ hl.config({
             -- vaporwave:         colors = {"rgba(FF2D9Eff)", "rgba(23DDEDff)" }, angle =  145
             -- synthwave:         colors = { "rgba(FF82CEff)", "rgba(5549abff)" }, angle = 210
             -- salvation:         colors = {"rgba(ECC450ff)", "rgba(4B83CEff)" }, angle =  140
-            -- nord               colors = {"rgba(88C0D0ff)", "rgba(66CCCff)" }, angle =  140
+            -- nord               colors = {"rgba(88C0D0ff)", "rgba(66CCCCff)" }, angle =  140
             -- rosé ice           colors = {"rgba(FDADC7ff)", "rgba(EA4C88ff)" }, angle =  140
             -- plains             colors = { "rgba(D2C8BFff)", "rgba(8C873Cff)" }, angle = 210
-            active_border   = { colors = { "rgba(6D8EB1ff)", "rgba(8C873Cff)" }, angle = 210 },
+            active_border   = { colors = {"rgba(88C0D0ff)", "rgba(66CCCCff)" }, angle =  140 },
             inactive_border = "rgba(aaaaaaff)",
         },
 
