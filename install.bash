@@ -27,8 +27,6 @@ if (( EUID == 0 )); then
   elif (( option == 1 )); then
     rm -rf /etc/portage/*
     mv portage-amd-nvidia/* /etc/portage
-  else
-    echo "No valid option chosen, skipping..."
   fi
 
 else
