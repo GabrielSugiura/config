@@ -10,7 +10,7 @@ if (( EUID == 0 )); then
   mv 90-grub /etc/kernel/postinst.d
   echo "Copying Gentoo configuration to /etc"
   echo "---------------------------------------"
-  echo "Chose a option below:\n"
+  echo "Chose a option below:"
   printf "(0) Intel CPU Only\n"
   printf "(1) AMD CPU + Nvidia GPU\n: "
   read option
