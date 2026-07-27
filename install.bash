@@ -4,7 +4,7 @@ echo "---------------------------------------\n"
 echo "Installing configurtion"
 
 
-if ( EOID == 1); then
+if (( EOID == 1 )); then
   echo "Executing as root"
   echo "Copying Gentoo configuration to /etc"
   echo "---------------------------------------\n"
@@ -12,10 +12,10 @@ if ( EOID == 1); then
   echo "(0) Intel CPU Only"
   echo "(1) AMD CPU + Nvidia GPU\n: "
   read option
-  if ( $option == 0); then
+  if (( $option == "0" )); then
     rm -rf /etc/portage/*
     mv intel-portage/* /etc/portage
-  elif ( $option == 1 ); then
+  elif (( $option == "1" )); then
     rm -rf /etc/portage/*
     mv amd-nvidia-portage/* /etc/portage
   else
