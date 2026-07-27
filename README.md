@@ -1,4 +1,4 @@
-# Gentoo Linux Configuration
+# Sugiura's Gentoo Linux Configuration
 
 This repository contains my personal configuration files for Gentoo,
 both are made specifically for my computers, which are an
@@ -17,3 +17,7 @@ If the user wishes to copy only the Hyrland and "rice" file, run the install scr
 ### Rosé Nord:
 
 ![Rosé Nord](screenshots/rosé-nord.png)
+
+### Vaporwave
+
+![Vaporwave](screenshots/vaporwave.png)
