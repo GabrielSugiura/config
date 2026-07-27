@@ -1,0 +1,8 @@
+# required by spotify (argument)
+>=media-sound/spotify-1.2.86 Spotify
+# required by discord (argument)
+>=net-im/discord-0.0.132 all-rights-reserved
+# required by app-office/obsidian (argument)
+>=app-office/obsidian-1.12.7 Obsidian-EULA
+# required by unrar (argument)
+=app-arch/unrar-7.2.4 unRAR

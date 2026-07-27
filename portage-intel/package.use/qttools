@@ -1,0 +1,1 @@
+dev-qt/qttools linguist -assistant -qdbus

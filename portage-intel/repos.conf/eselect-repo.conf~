@@ -1,0 +1,17 @@
+# created by eselect-repo
+
+[hyproverlay]
+location = /var/db/repos/hyproverlay
+sync-type = git
+sync-uri = https://codeberg.org/hyproverlay/hyproverlay.git
+
+[guru]
+location = /var/db/repos/guru
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/guru.git
+
+
+[vowstar]
+location = /var/db/repos/vowstar
+sync-type = git
+sync-uri = https://github.com/vowstar/vowstar-overlay.git

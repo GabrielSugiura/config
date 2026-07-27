@@ -1,0 +1,13 @@
+# required by sys-kernel/gentoo-kernel-6.18.18::gentoo[initramfs]
+# required by virtual/dist-kernel-6.18.18::gentoo
+# required by sys-kernel/linux-firmware-20260221::gentoo[dist-kernel]
+# required by sys-kernel/linux-firmware (argument)
+>=sys-kernel/installkernel-65 dracut
+# required by xfce-base/xfce4-panel-4.20.7::gentoo[dbusmenu]
+# required by xfce-base/thunar-4.20.7::gentoo[trash-panel-plugin]
+# required by thunar (argument)
+>=dev-libs/libdbusmenu-16.04.0-r4 gtk3
+
+dev-cpp/cpptrace unwind
+
+gnome-base/gvfs mtp udisks
