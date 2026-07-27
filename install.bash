@@ -3,6 +3,17 @@
 echo "---------------------------------------"
 echo "Installing configurtion"
 
+echo "Chose a option below:"
+printf "(0) Intel CPU Only\n"
+printf "(1) AMD CPU + Nvidia GPU\n: "
+read option
+if ((option > 1)); then
+  echo "Invalid Option, Stopping Script"
+  exit 1
+elif ((option < 0)); then
+  echo "Invalid Option, Stopping Script"
+  exit 1
+fi
 
 if (( EUID == 0 )); then
   echo "Executing as root"
@@ -10,10 +21,6 @@ if (( EUID == 0 )); then
   mv 90-grub /etc/kernel/postinst.d
   echo "Copying Gentoo configuration to /etc"
   echo "---------------------------------------"
-  echo "Chose a option below:"
-  printf "(0) Intel CPU Only\n"
-  printf "(1) AMD CPU + Nvidia GPU\n: "
-  read option
   if (( option == 0 )); then
     rm -rf /etc/portage/*
     mv portage-intel/* /etc/portage
