@@ -26,10 +26,14 @@ If the user wishes to copy only the Hyrland and "rice" file, run the install scr
 
 ![Salvation](screenshots/salvation.png)
 
-### Vaporwave
+### Low Fire:
+
+![Low Fire](screenshots/low-fire.png)
+
+### Vaporwave:
 
 ![Vaporwave](screenshots/vaporwave.png)
 
-### Synthwave
+### Synthwave:
 
 ![Synthwave](screenshots/synthwave.png)
