@@ -29,3 +29,7 @@ If the user wishes to copy only the Hyrland and "rice" file, run the install scr
 ### Vaporwave
 
 ![Vaporwave](screenshots/vaporwave.png)
+
+### Synthwave
+
+![Synthwave](screenshots/synthwave.png)
