@@ -38,8 +38,8 @@ else
   echo "Executing as non root"
 fi
 
-
-mv Wallpapers ~/Imagens
+mkdir /home/gabriel/Imagens /home/gabriel/.config
+mv Wallpapers /home/gabriel/Imagens
 mv fish foot helix hypr noctalia wofi user-dirs.dirs ~/.config
 
 echo "---------------------------------------"
