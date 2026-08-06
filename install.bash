@@ -20,7 +20,9 @@ if (( EUID == 0 )); then
   echo "Copying Grub post kernel install configuration to /etc"
   mv 90-grub /etc/kernel/postinst.d
   mv bluetooth display-manager /etc/conf.d
-  mv cmdline /etc
+  mv cmdline greetd /etc
+  useradd -m -G users,wheel,audio,video -s /bin/bash gabriel
+  passwd gabriel
   echo "Copying Gentoo configuration to /etc"
   echo "---------------------------------------"
   if (( option == 0 )); then
@@ -36,8 +38,6 @@ else
   echo "Executing as non root"
 fi
 
-useradd -m -G users,wheel,audio,video -s /bin/bash gabriel
-passwd gabriel
 
 mv Wallpapers ~/Imagens
 mv fish foot helix hypr noctalia wofi user-dirs.dirs ~/.config
