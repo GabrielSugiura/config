@@ -6,7 +6,7 @@ echo "Installing configurtion"
 echo "Chose a option below:"
 printf "(0) Intel CPU Only\n"
 printf "(1) AMD CPU + Nvidia GPU\n: "
-read option
+read -r option
 if ((option > 1)); then
   echo "Invalid Option, Stopping Script"
   exit 1
@@ -19,11 +19,14 @@ if (( EUID == 0 )); then
   echo "Executing as root"
   echo "Copying Grub post kernel install configuration to /etc"
   mv 90-grub /etc/kernel/postinst.d
+  mv bluetooth display-manager /etc/conf.d
+  mv cmdline /etc
   echo "Copying Gentoo configuration to /etc"
   echo "---------------------------------------"
   if (( option == 0 )); then
     rm -rf /etc/portage/*
     mv portage-intel/* /etc/portage
+    
   elif (( option == 1 )); then
     rm -rf /etc/portage/*
     mv portage-amd-nvidia/* /etc/portage
@@ -33,6 +36,9 @@ else
   echo "Executing as non root"
 fi
 
+useradd -m -G users,wheel,audio,video -s /bin/bash gabriel
+passwd gabriel
+
 mv Wallpapers ~/Imagens
 mv fish foot helix hypr noctalia wofi user-dirs.dirs ~/.config
 
@@ -41,5 +47,5 @@ echo "Configuration Installed"
 echo "Deleting this folder"
 echo "---------------------------------------"
 
-cd && rm -rf config
+#cd && rm -rf config
 exit
