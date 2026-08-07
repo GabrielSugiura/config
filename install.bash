@@ -45,7 +45,7 @@ mkdir /home/gabriel/Imagens /home/gabriel/.config
 mv Wallpapers /home/gabriel/Imagens
 mv config/* /home/gabriel/.config
 
-chown gabriel:gabriel /home/gabriel
+chown -R gabriel:gabriel /home/gabriel
 
 echo "---------------------------------------"
 echo "Configuration Installed"
