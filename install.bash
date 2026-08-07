@@ -18,9 +18,10 @@ fi
 if (( EUID == 0 )); then
   echo "Executing as root"
   echo "Copying Grub post kernel install configuration to /etc"
-  mv 90-grub /etc/kernel/postinst.d
-  mv bluetooth display-manager /etc/conf.d
-  mv cmdline greetd /etc
+  mkdir /etc/kernel/postinst.d
+  mv etc/90-grub /etc/kernel/postinst.d
+  mv etc/display-manager /etc/conf.d
+  mv etc/* /etc
   useradd -m -G users,wheel,audio,video -s /bin/bash gabriel
   passwd gabriel
   echo "Copying Gentoo configuration to /etc"
@@ -35,12 +36,16 @@ if (( EUID == 0 )); then
   fi
 
 else
-  echo "Executing as non root"
+  echo "Please execute the script as root"
+  echo "Quitting..."
+  exit 1
 fi
 
 mkdir /home/gabriel/Imagens /home/gabriel/.config
 mv Wallpapers /home/gabriel/Imagens
-mv fish foot helix hypr noctalia wofi user-dirs.dirs ~/.config
+mv config/* /home/gabriel/.config
+
+chown gabriel:gabriel /home/gabriel
 
 echo "---------------------------------------"
 echo "Configuration Installed"

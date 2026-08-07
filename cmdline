@@ -1,1 +1,0 @@
-root=/dev/nvme0n1p3 rootfstype=ext4 rw
