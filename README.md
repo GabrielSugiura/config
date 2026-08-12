@@ -28,7 +28,7 @@ folder contents to your own ~/.config folder.
 ![Salvation](screenshots/salvation.png)
 
 ### Red Bull
-![Red Bull](screnshots/red-bull.png)
+![Red Bull](screenshots/red-bull.png)
 
 ### Low Fire:
 
