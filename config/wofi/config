@@ -2,3 +2,4 @@ show=drun
 allow_images=true
 image_size=32        # ou 40 / 48 se quiseres ícones maiores
 no_actions=true
+gtk_dark=true

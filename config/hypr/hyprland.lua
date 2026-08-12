@@ -89,13 +89,14 @@ hl.config({
         col = {
             -- Color alternatives:
             -- low fire:          colors = {"rgba(EF670Eff)", "rgba(ecc450ff)" }, angle = 210
-            -- vaporwave:         colors = {"rgba(FF2D9Eff)", "rgba(23DDEDff)" }, angle =  145
-            -- synthwave:         colors = { "rgba(FF82CEff)", "rgba(5549abff)" }, angle = 210
-            -- salvation:         colors = {"rgba(ECC450ff)", "rgba(4B83CEff)" }, angle =  140
-            -- nord               colors = {"rgba(88C0D0ff)", "rgba(66CCCCff)" }, angle =  140
+            -- rosa e azul:       colors = {"rgba(FF82CEff)", "rgba(4B83CEff)" }, angle =  145
+            -- rosa e roxo:       colors = { "rgba(FF82CEff)", "rgba(5549abff)" }, angle = 210
+            -- amarelo e azul:    colors = {"rgba(ecc450ff)", "rgba(4B83CEff)" }, angle =  140
+            -- gelo/nord          colors = {"rgba(88C0D0ff)", "rgba(666CCCff)" }, angle =  140
             -- rosé ice           colors = {"rgba(FDADC7ff)", "rgba(EA4C88ff)" }, angle =  140
-            -- plains             colors = { "rgba(D2C8BFff)", "rgba(8C873Cff)" }, angle = 210
-            active_border   = { colors = {"rgba(88C0D0ff)", "rgba(66CCCCff)" }, angle =  140 },
+            -- plains             colors = {"rgba(FDADC7ff)", "rgba(EA4C88ff)" }, angle =  140
+            -- red bull           colors = {"rgba(ecc450ff)", "rgba(fa0005ff)" }, angle =  330 
+            active_border   = { colors = {"rgba(ecc450ff)", "rgba(fa0005ff)" }, angle =  330 },
             inactive_border = "rgba(aaaaaaff)",
         },
 
