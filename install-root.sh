@@ -19,11 +19,11 @@ if (( EUID == 0 )); then
   echo "Executing as root"
   echo "Copying Grub post kernel install configuration to /etc"
   mkdir /etc/kernel/postinst.d
-  mv etc/90-grub /etc/kernel/postinst.d
   mv etc/display-manager /etc/conf.d
   mv etc/* /etc
   useradd -m -G users,wheel,audio,video -s /bin/bash gabriel
   passwd gabriel
+  mv post-install.sh /home/gabriel
   echo "Copying Gentoo configuration to /etc"
   echo "---------------------------------------"
   if (( option == 0 )); then
@@ -49,8 +49,6 @@ chown -R gabriel:gabriel /home/gabriel
 
 echo "---------------------------------------"
 echo "Configuration Installed"
-echo "Deleting this folder"
 echo "---------------------------------------"
 
-#cd && rm -rf config
 exit
