@@ -3,4 +3,6 @@ if status is-interactive
     set -g fish_greeting
     fastfetch -l small
 end
-alias vim=hx
+
+set -gx EDITOR hx
+set -gx VISUAL hx
