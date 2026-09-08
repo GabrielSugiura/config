@@ -21,7 +21,7 @@ emerge dev-lang/rust dev-lang/gnucobol app-editors/helix app-shells/fish
 emerge display-manager-init tuigreet power-profiles-daemon
 rc-update add display-manager
 rc-update add power-profiles-daemon
-emerge gui-apps/wofi app-misc/ranger discord spotify mupdf foot
+emerge gui-apps/wofi app-misc/ranger discord spotify mupdf foot brightnessclt
 
 echo "Post Install Finished!"
 echo "---------------------------------------"

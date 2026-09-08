@@ -38,14 +38,24 @@ local screenshot_dir = os.getenv("HOME") .. "/Imagens/Capturas de Tela"
 -------------------
 
 hl.on("hyprland.start", function()
-    hl.exec_cmd("qs -c noctalia-shell")
+    hl.exec_cmd("noctalia")
     hl.exec_cmd("pipewire")
     hl.exec_cmd("wireplumber")
     hl.exec_cmd("pipewire-pulse")
     hl.exec_cmd("xdg-desktop-portal-hyprland")
     hl.exec_cmd("xdg-desktop-portal-gtk")
-    
+    hl.exec_cmd("brightnessctl set 45%")    
 end)
+
+input = {
+        sensitivity = 0.0,
+        touchpad = {
+            natural_scroll = false,
+            -- Desativa o perfil adaptativo que tenta filtrar o ruído elétrico gerando o lag
+            accel_profile = "flat", 
+        },
+    },
+
 
 
 -------------------------------
@@ -89,14 +99,13 @@ hl.config({
         col = {
             -- Color alternatives:
             -- low fire:          colors = {"rgba(EF670Eff)", "rgba(ecc450ff)" }, angle = 210
-            -- rosa e azul:       colors = {"rgba(FF82CEff)", "rgba(4B83CEff)" }, angle =  145
-            -- rosa e roxo:       colors = { "rgba(FF82CEff)", "rgba(5549abff)" }, angle = 210
-            -- amarelo e azul:    colors = {"rgba(ecc450ff)", "rgba(4B83CEff)" }, angle =  140
-            -- gelo/nord          colors = {"rgba(88C0D0ff)", "rgba(666CCCff)" }, angle =  140
+            -- vaporwave:         colors = {"rgba(FF2D9Eff)", "rgba(23DDEDff)" }, angle =  145
+            -- synthwave:         colors = { "rgba(FF82CEff)", "rgba(5549abff)" }, angle = 210
+            -- salvation:         colors = {"rgba(ECC450ff)", "rgba(4B83CEff)" }, angle =  140
+            -- nord               colors = {"rgba(88C0D0ff)", "rgba(66CCCCff)" }, angle =  140
             -- rosé ice           colors = {"rgba(FDADC7ff)", "rgba(EA4C88ff)" }, angle =  140
-            -- plains             colors = {"rgba(FDADC7ff)", "rgba(EA4C88ff)" }, angle =  140
-            -- red bull           colors = {"rgba(ecc450ff)", "rgba(fa0005ff)" }, angle =  330 
-            active_border   = { colors = {"rgba(ecc450ff)", "rgba(fa0005ff)" }, angle =  330 },
+            -- plains             colors = { "rgba(D2C8BFff)", "rgba(8C873Cff)" }, angle = 210
+                active_border   = { colors = {"rgba(AED5F5ff)" }},
             inactive_border = "rgba(aaaaaaff)",
         },
 
@@ -284,8 +293,9 @@ hl.bind("XF86AudioRaiseVolume",  hl.dsp.exec_cmd("wpctl set-volume -l 1 @DEFAULT
 hl.bind("XF86AudioLowerVolume",  hl.dsp.exec_cmd("wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%-"),            { locked = true, repeating = true })
 hl.bind("XF86AudioMute",         hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"),           { locked = true, repeating = true })
 hl.bind("XF86AudioMicMute",      hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"),         { locked = true, repeating = true })
-hl.bind("XF86MonBrightnessUp",   hl.dsp.exec_cmd("brightnessctl set 2%+"),                               { locked = true, repeating = true })
-hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("brightnessctl set 2%-"),                               { locked = true, repeating = true })
+hl.bind("XF86MonBrightnessUp",   hl.dsp.exec_cmd("noctalia msg brightness-up"),                           { locked = true, repeating = true })
+hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("noctalia msg brightness-down"),                         { locked = true, repeating = true })
+
 
 -- Requires playerctl
 hl.bind("XF86AudioNext",  hl.dsp.exec_cmd("playerctl next"),       { locked = true })
