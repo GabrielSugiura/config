@@ -47,16 +47,6 @@ hl.on("hyprland.start", function()
     hl.exec_cmd("brightnessctl set 45%")    
 end)
 
-input = {
-        sensitivity = 0.0,
-        touchpad = {
-            natural_scroll = false,
-            -- Desativa o perfil adaptativo que tenta filtrar o ruído elétrico gerando o lag
-            accel_profile = "flat", 
-        },
-    },
-
-
 
 -------------------------------
 ---- ENVIRONMENT VARIABLES ----
@@ -98,14 +88,16 @@ hl.config({
 
         col = {
             -- Color alternatives:
-            -- low fire:          colors = {"rgba(EF670Eff)", "rgba(ecc450ff)" }, angle = 210
-            -- vaporwave:         colors = {"rgba(FF2D9Eff)", "rgba(23DDEDff)" }, angle =  145
-            -- synthwave:         colors = { "rgba(FF82CEff)", "rgba(5549abff)" }, angle = 210
-            -- salvation:         colors = {"rgba(ECC450ff)", "rgba(4B83CEff)" }, angle =  140
-            -- nord               colors = {"rgba(88C0D0ff)", "rgba(66CCCCff)" }, angle =  140
-            -- rosé ice           colors = {"rgba(FDADC7ff)", "rgba(EA4C88ff)" }, angle =  140
-            -- plains             colors = { "rgba(D2C8BFff)", "rgba(8C873Cff)" }, angle = 210
-                active_border   = { colors = {"rgba(AED5F5ff)" }},
+            -- low fire:          colors = {"rgba(EF670Eff)"},
+            -- rosa e azul:       colors = {"rgba(FF82CEff)"},
+            -- rosa e roxo:       colors = {"rgba(5549abff)"},
+            -- amarelo e azul:    colors = {"rgba(ecc450ff)"}, 
+            -- grace:             colors = {"rgba(d80401ff)"}
+            -- gelo/nord          colors = {"rgba(88C0D0ff)"},
+            -- rosé ice           colors = {"rgba(FDADC7ff)", "rgba(EA4C88ff)" }, angle =  140    
+            -- red bull           colors = {"rgba(FA0005ff)"},
+            -- jade               colors = {"rgba(037A5Fff)"}  
+            active_border   = { colors = {"rgba(037A5Fff)"}},
             inactive_border = "rgba(aaaaaaff)",
         },
 
@@ -295,7 +287,6 @@ hl.bind("XF86AudioMute",         hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_
 hl.bind("XF86AudioMicMute",      hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"),         { locked = true, repeating = true })
 hl.bind("XF86MonBrightnessUp",   hl.dsp.exec_cmd("noctalia msg brightness-up"),                           { locked = true, repeating = true })
 hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("noctalia msg brightness-down"),                         { locked = true, repeating = true })
-
 
 -- Requires playerctl
 hl.bind("XF86AudioNext",  hl.dsp.exec_cmd("playerctl next"),       { locked = true })
