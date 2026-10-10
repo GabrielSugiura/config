@@ -15,14 +15,6 @@ folder contents to your own ~/.config folder.
 
 ![Nord](screenshots/nord.png)
 
-### Rosé Nord:
-
-![Rosé Nord](screenshots/rosé-nord.png)
-
-### Plains:
-
-![Plains](screenshots/plains.png)
-
 ### Salvation:
 
 ![Salvation](screenshots/salvation.png)
