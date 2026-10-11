@@ -15,16 +15,20 @@ folder contents to your own ~/.config folder.
 
 ![Nord](screenshots/nord.png)
 
+### Low Fire:
+
+![Low Fire](screenshots/low-fire.png)
+
 ### Salvation:
 
 ![Salvation](screenshots/salvation.png)
 
+### Grace
+
+![Grace](screenshots/grace.png)
+
 ### Red Bull
 ![Red Bull](screenshots/red-bull.png)
-
-### Low Fire:
-
-![Low Fire](screenshots/low-fire.png)
 
 ### Vaporwave:
 
@@ -33,3 +37,7 @@ folder contents to your own ~/.config folder.
 ### Synthwave:
 
 ![Synthwave](screenshots/synthwave.png)
+
+### Jade:
+
+![Jade](screenshits/jade.png)
