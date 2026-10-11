@@ -40,4 +40,4 @@ folder contents to your own ~/.config folder.
 
 ### Jade:
 
-![Jade](screenshits/jade.png)
+![Jade](screenshots/jade.png)
