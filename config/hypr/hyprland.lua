@@ -48,6 +48,7 @@ hl.on("hyprland.start", function()
 end)
 
 
+
 -------------------------------
 ---- ENVIRONMENT VARIABLES ----
 -------------------------------
@@ -88,15 +89,15 @@ hl.config({
 
         col = {
             -- Color alternatives:
-            -- low fire:          colors = {"rgba(EF670Eff)"},
-            -- vaporwave:         colors = {"rgba(FF82CEff)"},
-            -- synthwave:         colors = {"rgba(5549abff)"},
-            -- salvation:         colors = {"rgba(ecc450ff)"}, 
-            -- grace:             colors = {"rgba(d80401ff)"},
-            -- gelo/nord          colors = {"rgba(88C0D0ff)"},   
-            -- red bull           colors = {"rgba(FA0005ff)"},
-            -- jade               colors = {"rgba(037A5Fff)"}  
-            active_border   = { colors = {"rgba(037A5Fff)"}},
+            -- battle of the heroes: colors = {"rgba(D80401ff)"}
+            -- vaporwave:            colors = {"rgba(FF82CEff)"}
+            -- synthwave:            colors = {"rgba(5549abff)"}
+            -- salvation:            colors = {"rgba(ECC450ff)"} 
+            -- grace:                colors = {"rgba(D80401ff)"}
+            -- nord                  colors = {"rgba(88C0D0ff)"}               
+            -- red bull              colors = {"rgba(FA0005ff)"}
+            -- jade                  colors = {"rgba(037A5Fff)"}  
+            active_border   = {colors = {"rgba(D80401ff)"}},
             inactive_border = "rgba(aaaaaaff)",
         },
 

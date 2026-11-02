@@ -11,13 +11,13 @@ folder contents to your own ~/.config folder.
 
 ## Screenshots
 
+### Batlle of the Heroes:
+
+![Low Fire](screenshots/battle-of-the-heroes.png)
+
 ### Nord:
 
 ![Nord](screenshots/nord.png)
-
-### Low Fire:
-
-![Low Fire](screenshots/low-fire.png)
 
 ### Salvation:
 
@@ -30,6 +30,10 @@ folder contents to your own ~/.config folder.
 ### Red Bull
 ![Red Bull](screenshots/red-bull.png)
 
+### Jade:
+
+![Jade](screenshots/jade.png)
+
 ### Vaporwave:
 
 ![Vaporwave](screenshots/vaporwave.png)
@@ -38,6 +42,4 @@ folder contents to your own ~/.config folder.
 
 ![Synthwave](screenshots/synthwave.png)
 
-### Jade:
 
-![Jade](screenshots/jade.png)
